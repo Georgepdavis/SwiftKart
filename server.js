@@ -6,7 +6,7 @@ var productsRoute=require('./routes/productsRoute');
 var userRoute=require('./routes/userRoute')
 var cors=require("cors");
 const path=require("path")
-const port=8000;
+
 
 app.use(cors({origin:"http://localhost:3000", credentials: true}))
 app.use(express.json())
